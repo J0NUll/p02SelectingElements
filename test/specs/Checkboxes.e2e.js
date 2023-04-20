@@ -12,7 +12,7 @@ describe('My Login application', () => {
         await browser.pause (3000)
         await (CheckBoxesPage).btnCheck.click()
         await browser.pause (3000)
-        await (CheckBoxesPage).btnCheck.click()
+        expect (CheckBoxesPage).btnCheck.click()
 
 
     });

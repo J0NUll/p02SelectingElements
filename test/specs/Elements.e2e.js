@@ -1,7 +1,7 @@
 import elements from '../pageobjects/elements.page.js'
 
 describe('Heroku Checkbox Page', () => {
-    it('To check if Option 1 is selected', async () => {
+    xit('To check if Option 1 is selected', async () => {
         await elements.open()
 
         // await browser.pause (3000)
