@@ -4,15 +4,17 @@ describe('Heroku Checkbox Page', () => {
     xit('To check if Option 1 is selected', async () => {
         await elements.open()
 
-        // await browser.pause (3000)
-        // await (elements).addButton.click()
-        // await (elements).addButton.click()
-        // await (elements).addButton.click()
-        // await (elements).addButton.click()
-        // await (elements).addButton.click()
-        // await browser.pause (2000)
-        // await (elements).dlteButton.click()
-        // await (elements).dlteButton.click()
+        await browser.pause (3000)
+        await (elements).addButton.click()
+        await (elements).addButton.click()
+        await (elements).addButton.click()
+        await (elements).addButton.click()
+        await (elements).addButton.click()
+        await browser.pause (2000)
+        await (elements).dlteButton.click()
+        await (elements).dlteButton.click()
+
+
         for (let i=0;i<5;i++){
             await elements.addButton.click()
         }

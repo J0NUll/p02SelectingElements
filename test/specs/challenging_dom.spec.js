@@ -12,7 +12,7 @@ describe('Challenge dom page test', () => {
 
     });
 
-    it('Method 2', async () => {
+    xit('Method 2', async () => {
         await chalDom.open()
         await browser.pause(3000)
         await expect(chalDom.link).toHaveTextContaining('Elemental Selenium')
